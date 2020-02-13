@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="1045.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <ImageView fitHeight="603.0" fitWidth="1045.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="0.0">
+      <image>
+        <Image url="@../images/bk.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="294.0" fitWidth="391.33104808910474" layoutX="114.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../images/s.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="348.0" fitWidth="464.0" layoutX="505.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../images/bkk.jpeg" />
+      </image>
+    </ImageView>
+    <Label id="" alignment="CENTER" contentDisplay="LEFT" layoutX="541.0" layoutY="90.0" prefHeight="64.0" prefWidth="109.5" style="-fx-background-color:#127846&#10;" text="Perfect" textFill="#fff966">
+      <font>
+        <Font name="UD Digi Kyokasho NP-B" size="25.0" />
+      </font>
+    </Label>
+    <Label id="perfect" alignment="CENTER" layoutX="651.0" layoutY="90.0" prefHeight="65.0" prefWidth="266.0" text="Label">
+      <font>
+        <Font size="30.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label id="" alignment="CENTER" contentDisplay="LEFT" layoutX="541.0" layoutY="170.0" prefHeight="64.0" prefWidth="109.5" style="-fx-background-color:#127846&#10;" text="Miss">
+      <font>
+        <Font name="UD Digi Kyokasho NP-B" size="40.0" fx:id="x1" />
+      </font>
+      <textFill>
+        <Color blue="0.400" green="0.976" red="1.000" fx:id="x2" />
+      </textFill>
+    </Label>
+    <Label id="" alignment="CENTER" contentDisplay="LEFT" font="$x1" layoutX="541.0" layoutY="253.0" prefHeight="64.0" prefWidth="109.5" style="-fx-background-color:#127846&#10;" text="得分" textFill="$x2" />
+    <Label id="miss" alignment="CENTER" font="$x3" layoutX="651.0" layoutY="169.0" prefHeight="65.0" prefWidth="266.0" text="Label" />
+    <Label id="sco" alignment="CENTER" font="$x3" layoutX="651.0" layoutY="252.0" prefHeight="65.0" prefWidth="266.0" text="Label" />
+    <Button id="resta" font="$x3" layoutX="310.0" layoutY="453.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="110.0" text="重來" />
+    <Button id="cho" font="$x3" layoutX="468.0" layoutY="453.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="110.0" text="選歌" />
+    <Button id="exi" font="$x3" layoutX="627.0" layoutY="453.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="110.0" text="離開" />
+  </children>
+</AnchorPane>

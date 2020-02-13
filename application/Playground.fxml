@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="use" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="1045.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <ImageView id="background" fitHeight="603.0" fitWidth="1045.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true" />
+    <Label id="combo" alignment="CENTER" layoutX="0.0" layoutY="171.0" prefHeight="64.0" prefWidth="135.0" style="-fx-background-color:#000000&#10;&#10;" text="0">
+      <font>
+        <Font size="40.0" fx:id="x1" />
+      </font>
+      <textFill>
+        <Color blue="0.400" green="1.000" red="0.447" fx:id="x2" />
+      </textFill>
+    </Label>
+    <Label id="hcombo" alignment="CENTER" font="$x1" layoutX="0.0" layoutY="287.0" prefHeight="64.0" prefWidth="135.0" style="-fx-background-color:#000000&#10;&#10;" text="0" textFill="$x2" />
+    <Label id="score" alignment="CENTER" layoutX="0.0" layoutY="398.0" prefHeight="64.0" prefWidth="135.0" style="-fx-background-color:#000000&#10;&#10;" text="0" textFill="$x2">
+      <font>
+        <Font size="25.0" />
+      </font>
+    </Label>
+    <Label alignment="CENTER" layoutX="0.0" layoutY="371.0" prefHeight="27.0" prefWidth="135.0" style="-fx-background-color:#006000&#10;" text="Score" textFill="#00ffa3">
+      <font>
+        <Font size="16.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label alignment="CENTER" font="$x3" layoutX="0.0" layoutY="260.0" prefHeight="27.0" prefWidth="135.0" style="-fx-background-color:#006000&#10;" text="最高連擊">
+      <textFill>
+        <Color blue="0.639" green="1.000" red="0.000" fx:id="x4" />
+      </textFill>
+    </Label>
+    <Label alignment="CENTER" font="$x3" layoutX="0.0" layoutY="144.0" prefHeight="27.0" prefWidth="135.0" style="-fx-background-color:#006000&#10;" text="目前連擊" textFill="$x4" />
+    <ImageView id="run" fitHeight="198.0" fitWidth="198.0" layoutX="0.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true" />
+    <Button id="back" layoutX="0.0" layoutY="38.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="131.0" style="&#10;" text="back">
+      <font>
+        <Font name="Bell MT" size="35.0" />
+      </font>
+    </Button>
+  </children>
+</AnchorPane>
